@@ -8,10 +8,6 @@ body {
   margin: 0px;
 }
 
-.content {
-
-}
-
 header {
   display: flex;
   justify-content: space-between;
@@ -96,6 +92,7 @@ a {
   display: flex;
   justify-content: center;
   padding-top: 40px;
+  position: relative;
 }
 
 .location-img {
@@ -104,13 +101,11 @@ a {
   background-image: url(../images/img-locations-background.jpg);
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
 .location-heading {
-  width: 100%;
-  position: relative;
+  position: absolute;
   top: 85px;
 }
 
@@ -118,4 +113,14 @@ a {
   background-color: black;
   width: 300px;
   margin: 0px 20px;
+}
+
+.contact {
+  height: 200px;
+}
+
+.copywrite h5 {
+  margin-top: 0px;
+  margin-left: 20px;
+  text-align: left;
 }
