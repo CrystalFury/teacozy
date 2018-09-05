@@ -67,7 +67,7 @@ a {
   flex-direction: column;
 }
 
-.heading {
+.featured-heading {
   padding-top: 40px;
 }
 
@@ -90,4 +90,32 @@ a {
 .pictured-item h4 {
   margin-top: 0px;
   padding-top: 10px;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.location-img {
+  height: 500px;
+  width: 1200px;
+  background-image: url(../images/img-locations-background.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.location-heading {
+  width: 100%;
+  position: relative;
+  top: 85px;
+}
+
+.location-box {
+  background-color: black;
+  width: 300px;
+  margin: 0px 20px;
 }
